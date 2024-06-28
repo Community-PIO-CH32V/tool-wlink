@@ -10,8 +10,7 @@
   "homepage": "https://crates.io/crates/wlink",
   "license": "MIT",
   "system": [
-    "windows_x86",
-    "windows_amd64"
+    "linux_x86_64"
   ],
   "repository": {
     "type": "git",

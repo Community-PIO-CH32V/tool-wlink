@@ -25,6 +25,7 @@
 - [x] Read chip memory(flash)
 - [x] Read/write chip register - very handy for debugging
 - [x] Code-Protect & Code-Unprotect for supported chips
+- [x] Enable or Disable 3.3V, 5V output
 - [x] [SDI print](https://www.cnblogs.com/liaigu/p/17628184.html) support, requires 2.10+ firmware
 - [x] [Serial port watching](https://github.com/ch32-rs/wlink/pull/36) for a smooth development experience
 - [x] Windows native driver support, no need to install libusb manually (requires x86 build)
@@ -58,11 +59,13 @@ Current firmware version: 2.11 (aka. v31).
 - [CH569]/CH565
 - [CH573]/CH571
 - [CH583]/CH582/CH581
+- [CH585]/CH584
 - [CH592]/CH591
 - [ ] [CH643] - I don't have this chip, help wanted
-- [ ] [CH641] - I don't have this chip, help wanted
-- [CH32X035]
-- [ ] [CH32L103] - I don't have this chip, help wanted
+- [ ] [CH32V317] - I don't have this chip, help wanted
+- [CH641]
+- [CH32X035]/CH32X033
+- [CH32L103]
 - [ ] [CH8571] - No other source about this chip, help wanted
 - ... (Feel free to open an issue if you have tested on other chips)
 
@@ -71,13 +74,15 @@ Current firmware version: 2.11 (aka. v31).
 [CH32V203]: https://www.wch-ic.com/products/CH32V203.html
 [CH32V208]: https://www.wch-ic.com/products/CH32V208.html
 [CH32V307]: https://www.wch-ic.com/products/CH32V307.html
+[CH32V317]: https://www.wch.cn/products/CH32V317.html
 [CH32X035]: https://www.wch-ic.com/products/CH32X035.html
 [CH32L103]: https://www.wch-ic.com/products/CH32L103.html
 [CH569]: https://www.wch-ic.com/products/CH569.html
 [CH573]: https://www.wch-ic.com/products/CH573.html
 [CH583]: https://www.wch-ic.com/products/CH583.html
+[CH585]: https://www.wch-ic.com/products/CH585.html
 [CH592]: https://www.wch-ic.com/products/CH592.html
-[CH641]: https://www.wch.cn/downloads/CH641DS0_PDF.html
+[CH641]: https://www.wch-ic.com/products/CH641.html
 [CH643]: https://www.wch-ic.com/products/CH643.html
 [CH8571]: https://www.wch.cn/news/606.html
 
@@ -174,3 +179,7 @@ x5     t0: 0xb4a9b38a
 
 - [docs/references.md](docs/references.md)
 - WCH's openocd fork: <https://github.com/treideme/openocd-hacks>
+
+## License
+
+This project is licensed under the MIT or Apache-2.0 license, at your option.

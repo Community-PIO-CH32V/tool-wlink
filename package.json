@@ -1,6 +1,6 @@
 {
   "name": "tool-wlink",
-  "version": "0.22.240627",
+  "version": "0.23.241116",
   "description": "An open source WCH-Link library/command line tool written in Rust.",
   "keywords": [
     "tools",

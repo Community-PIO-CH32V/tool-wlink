@@ -1,19 +1,19 @@
 {
   "name": "tool-wlink",
-  "version": "0.23.241116",
-  "description": "An open source WCH-Link library/command line tool written in Rust.",
+  "version": "0.23.260911",
+  "description": "An open source WCH-Link library/command line tool written in Rust. Community-PIO-CH32V fork, which adds CH32H4 (QingKe V5) programming.",
   "keywords": [
     "tools",
     "uploader",
     "risc-v"
   ],
-  "homepage": "https://crates.io/crates/wlink",
+  "homepage": "https://github.com/Community-PIO-CH32V/wlink",
   "license": "MIT",
   "system": [
     "darwin_x86_64"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ch32-rs/wlink"
+    "url": "https://github.com/Community-PIO-CH32V/wlink"
   }
 }
